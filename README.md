@@ -11,6 +11,8 @@ Extreme Classification ([`XC`](http://manikvarma.org/downloads/XC/XMLRepository.
 in extreme classifiers. It presents a method to systematically reduce label variance in XC by effectively utilizing the capabilities of an additional, tail-robust teacher model. It proposes a principled knowledge distillation framework, LEVER, which enhances tail performance in extreme classifiers with formal guarantees on generalization. Comprehensive experiments show that LEVER can enhance tail performance by around 5% and 6% points in PSP and coverage metrics, respectively, when combined with leading extreme classifiers. Moreover, it establishes a new state-of-
 the-art when added to the top-performing [Ren ́ee](https://github.com/microsoft/renee) classifier.
 
+Additionally, this work also contributed 2 new datasets which are representative of real world tasks of query auto-completion ([LF-AOL-270K](Datasets/AOL/)) and taxonomy-completion ([LF-WikiHierarchy-1M](Datasets/WikiHierarchy/))
+
 ## Environment Setup
 To setup a conda environment run `bash Code/env_setup.sh`
 
@@ -19,7 +21,7 @@ To setup a conda environment run `bash Code/env_setup.sh`
 Training LEVER involves 2 steps 
 
 ### Stage 1: Training the tail-robust teacher model
-
+Refer to the instructions [here](Code/TailTeacher/README.md)
 
 ### Stage 2: Training the extreme-classifier using the tail-robust teacher
 
