@@ -1,5 +1,8 @@
-<img src="Resources/ICLR_Logo.jpg" height="100" align="right"/>
 # LEVER: Enhancing Tail Performance In Extreme Classifiers by Label Variance Reduction
+
+<img src="Resources/ICLR_Logo.jpg" height="100" align="right"/>
+
+
 This is the official codebase for [ICLR 2024](https://iclr.cc/Conferences/2024) paper [ Enhancing Tail Performance In Extreme Classifiers by Label Variance Reduction](https://openreview.net/forum?id=6ARlSgun7J)
 
 ## Overview
@@ -26,7 +29,3 @@ url={https://openreview.net/forum?id=6ARlSgun7J}
 - [NGAME: Negative mining-aware mini-batching for extreme classification](https://github.com/Extreme-classification/ngame)
 - [SiameseXML: Siamese networks meet extreme classifiers with 100M labels](https://github.com/Extreme-classification/siamesexml)
 - [DeepXML: A Deep Extreme Multi-Label Learning Framework Applied to Short Text Documents](https://github.com/Extreme-classification/deepxml)
-- [DECAF: Deep Extreme Classification with Label Features](https://github.com/Extreme-classification/DECAF)
-- [ECLARE: Extreme Classification with Label Graph Correlations](https://github.com/Extreme-classification/ECLARE)
-- [GalaXC: Graph Neural Networks with Labelwise Attention for Extreme Classification](https://github.com/Extreme-classification/GalaXC)
-
