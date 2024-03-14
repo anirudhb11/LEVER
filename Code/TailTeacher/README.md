@@ -1,6 +1,7 @@
 ## Directory Structure
 
 The code provided assumes the following directory structure.
+
 ```txt
 +-- <work_dir>
 |  +-- Datasets
