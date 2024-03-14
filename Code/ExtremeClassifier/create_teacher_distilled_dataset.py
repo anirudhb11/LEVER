@@ -135,7 +135,7 @@ def main(args):
     lbl_data = trn_X_Y.tocoo()
     row_idx, col_idx, vals = lbl_data.row, lbl_data.col, lbl_data.data
     doc_aug_data_pts, doc_aug_labels, doc_aug_vals = augment_docs(trn_X_Y.indices.astype(np.int64), trn_X_Y.indptr.astype(np.int64), args.doc_similarity_threshold, args.num_docs, doc_similarities, doc_indices, sorted_label_index.astype(np.int32), pts_per_lbl.astype(np.int32))
-    lbl_aug_data_pts, lbl_aug_labels, lbl_aug_vals = augment_lbls(trn_X_Y.indices.astype(np.int64), trn_X_Y.indptr.astype(np.int64), args.lbl_similar_threshold, args.num_lbls, lbl_similarities, lbl_indices, trn_X_Y.shape[0])
+    lbl_aug_data_pts, lbl_aug_labels, lbl_aug_vals = augment_lbls(trn_X_Y.indices.astype(np.int64), trn_X_Y.indptr.astype(np.int64), args.lbl_similar_threshold, args.num_lbls, lbl_similarities, lbl_indices, trn_X_Y.shape[0] - trn_X_Y.shape[1])
     row_idx = np.concatenate([row_idx, doc_aug_data_pts, lbl_aug_data_pts], axis = 0)
     col_idx = np.concatenate([col_idx, doc_aug_labels, lbl_aug_labels], axis= 0)
     vals = np.concatenate([vals, doc_aug_vals, lbl_aug_vals], axis = 0)
