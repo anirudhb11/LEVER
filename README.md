@@ -11,6 +11,18 @@ Extreme Classification ([`XC`](http://manikvarma.org/downloads/XC/XMLRepository.
 in extreme classifiers. It presents a method to systematically reduce label variance in XC by effectively utilizing the capabilities of an additional, tail-robust teacher model. It proposes a principled knowledge distillation framework, LEVER, which enhances tail performance in extreme classifiers with formal guarantees on generalization. Comprehensive experiments show that LEVER can enhance tail performance by around 5% and 6% points in PSP and coverage metrics, respectively, when combined with leading extreme classifiers. Moreover, it establishes a new state-of-
 the-art when added to the top-performing [Ren ́ee](https://github.com/microsoft/renee) classifier.
 
+## Environment Setup
+To setup a conda environment run `bash Code/env_setup.sh`
+
+## Running the Code
+
+Training LEVER involves 2 steps 
+
+### Stage 1: Training the tail-robust teacher model
+
+
+### Stage 2: Training the extreme-classifier using the tail-robust teacher
+
 ## Cite
 
 ```bib
@@ -25,7 +37,6 @@ url={https://openreview.net/forum?id=6ARlSgun7J}
 ```
 
 ## You May Also Like
+- [Renee: End-to-end training of extreme classification models](https://github.com/microsoft/renee)
 - [DEXA: Deep Encoders with Auxiliary Parameters for Extreme Classification](https://github.com/Extreme-classification/dexa)
 - [NGAME: Negative mining-aware mini-batching for extreme classification](https://github.com/Extreme-classification/ngame)
-- [SiameseXML: Siamese networks meet extreme classifiers with 100M labels](https://github.com/Extreme-classification/siamesexml)
-- [DeepXML: A Deep Extreme Multi-Label Learning Framework Applied to Short Text Documents](https://github.com/Extreme-classification/deepxml)
