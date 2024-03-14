@@ -8,6 +8,7 @@ from sklearn.preprocessing import normalize
 from tqdm import trange, tqdm
 import torch
 import numpy as np
+import wandb
 import scipy.sparse as sp
 import os
 import gc

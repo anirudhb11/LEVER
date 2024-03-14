@@ -182,7 +182,7 @@ def main(args):
             print(args, file=fout)
 
 
-# CUDA_VISIBLE_DEVICES=0,1 python main.py --work-dir /home/t-abuvanesh/xc/ --dataset LF-AmazonTitles-131K-Kunal --epochs 300 --batch-size 1600 --margin 0.3 --eval-interval 1 --enc-lr 2e-4 --version lfat-131k-lbl-side --filter-labels tst_filter_labels.txt --num-negatives 10 --num-violators --save-model  --batch-type lbl --loss-type ohnm --cl-size 8 --cl-start 10 --cl-update 5 --curr-steps 25,50,75,100,125,150,200
+# CUDA_VISIBLE_DEVICES=0,1 python main.py --work-dir /home/t-abuvanesh/xc/ --dataset LF-AmazonTitles-131K --epochs 300 --batch-size 1600 --margin 0.3 --eval-interval 1 --enc-lr 2e-4 --version lfat-131k-lbl-side --filter-labels tst_filter_labels.txt --num-negatives 10 --num-violators --save-model  --batch-type lbl --loss-type ohnm --cl-size 8 --cl-start 10 --cl-update 5 --curr-steps 25,50,75,100,125,150,200
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--work-dir", type=str, help="Work dir")
