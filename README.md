@@ -39,7 +39,7 @@ LEVER when combined with leading extreme classifiers such as [ELIAS](https://pro
 @inproceedings{
 buvanesh2024enhancing,
 title={Enhancing Tail Performance in Extreme Classifiers by Label Variance Reduction},
-author={Anirudh Buvanesh and Rahul Chand and Jatin Prakash and Bhawna Paliwal and Mudit Dhawan and Neelabh Madan and Deepesh Hada and Vidit Jain and SONU MEHTA and Yashoteja Prabhu and Manish Gupta and Ramachandran Ramjee and Manik Varma},
+author={Anirudh Buvanesh and Rahul Chand and Jatin Prakash and Bhawna Paliwal and Mudit Dhawan and Neelabh Madan and Deepesh Hada and Vidit Jain and Sonu Mehta and Yashoteja Prabhu and Manish Gupta and Ramachandran Ramjee and Manik Varma},
 booktitle={The Twelfth International Conference on Learning Representations},
 year={2024},
 url={https://openreview.net/forum?id=6ARlSgun7J}
