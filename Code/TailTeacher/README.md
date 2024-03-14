@@ -1,12 +1,13 @@
 ## Directory Structure
 
 The code provided assumes the following directory structure.
-
+```txt
 +-- <work_dir>
 |  +-- Datasets
 |  |  +-- <dataset>
 |  +-- models
 |  +-- results
+```
 
 ## Data Preparation
 You can download the datasets from the [XML repo](http://manikvarma.org/downloads/XC/XMLRepository.html).
