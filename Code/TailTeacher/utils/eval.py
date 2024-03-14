@@ -10,6 +10,7 @@ import torch
 import numpy as np
 import scipy.sparse as sp
 import os
+import gc
 
 @contextmanager
 def evaluating(net):
