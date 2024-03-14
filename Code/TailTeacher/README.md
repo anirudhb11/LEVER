@@ -24,3 +24,13 @@ python -W ignore -u utils/CreateTokenizedFiles.py \
 --tokenize-label-texts
 ```
 
+## Training the Tail Robust Teacher
+
+LEVER builds upon NGAME's[1] Module-I code base. Please refer to the sample command below to train the Siamese Teacher model.
+
+
+
+
+## References
+
+[1]: K. Dahiya, N. Gupta, D. Saini, A. Soni, Y. Wang, K. Dave, J. Jiao, K. Gururaj, P. Dey, A. Singh, D. Hada, V. Jain, B. Paliwal, A. Mittal, S. Mehta, R. Ramjee, S. Agarwal, P. Kar and M. Varma. NGAME: Negative mining-aware mini-batching for extreme classification. In WSDM, Singapore, March 2023.
