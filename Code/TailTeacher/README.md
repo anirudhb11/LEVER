@@ -1,3 +1,12 @@
+## Directory Structure
+
+The code provided assumes the following directory structure.
+
++-- <work_dir>
+|  +-- Datasets
+|  |  +-- <dataset>
+|  +-- models
+|  +-- results
 
 ## Data Preparation
 You can download the datasets from the [XML repo](http://manikvarma.org/downloads/XC/XMLRepository.html).
@@ -26,10 +35,11 @@ python -W ignore -u utils/CreateTokenizedFiles.py \
 
 ## Training the Tail Robust Teacher
 
-LEVER builds upon NGAME's[1] Module-I code base. Please refer to the sample command below to train the Siamese Teacher model.
+LEVER builds upon NGAME's[1] Module-I code base. Please refer to the sample command below to train the Siamese Teacher model. We use the same hyper-parameters as described in [1] to train the teacher model.
 
-
-
+```bash
+CUDA_VISIBLE_DEVICES=0,1 python main.py --work-dir <work-dir> --dataset LF-AmazonTitles-131K-Kunal --epochs 300 --batch-size 1600 --margin 0.3 --eval-interval 1 --enc-lr 2e-4 --version lfat-131k-lbl-side --filter-labels tst_filter_labels.txt --num-negatives 10 --num-violators --save-model  --batch-type lbl --loss-type ohnm --cl-size 8 --cl-start 10 --cl-update 5 --curr-steps 25,50,75,100,125,150,200
+```
 
 ## References
 

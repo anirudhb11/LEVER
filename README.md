@@ -24,11 +24,11 @@ Training LEVER involves 2 steps
 Refer to the instructions [here](Code/TailTeacher/README.md)
 
 ### Stage 2: Training the extreme-classifier using the tail-robust teacher
-
+Refer to the instructions [here](Code/ExtremeClassifier/README.md)
 
 ## Results
 
-LEVER when combined with leading extreme classifiers such as [ELIAS](https://proceedings.neurips.cc/paper_files/paper/2022/file/7d4f98f916494121aca3da02e36a4d18-Paper-Conference.pdf), [CascadeXML](https://proceedings.neurips.cc/paper_files/paper/2022/file/0e0157ce5ea15831072be4744cbd5334-Paper-Conference.pdf), [Renee](https://proceedings.mlsys.org/paper_files/paper/2023/file/3d8edd573b5b21fede5d98ecee0f6382-Paper-mlsys2023.pdf) results in significant performance improvement in both Precision and Propensity Weighted Precision metrics
+LEVER when combined with leading extreme classifiers such as [ELIAS](https://proceedings.neurips.cc/paper_files/paper/2022/file/7d4f98f916494121aca3da02e36a4d18-Paper-Conference.pdf), [CascadeXML](https://proceedings.neurips.cc/paper_files/paper/2022/file/0e0157ce5ea15831072be4744cbd5334-Paper-Conference.pdf), and [Renee](https://proceedings.mlsys.org/paper_files/paper/2023/file/3d8edd573b5b21fede5d98ecee0f6382-Paper-mlsys2023.pdf) results in significant performance improvement in both Precision and Propensity Weighted Precision metrics
 
 <img src="Resources/LEVER_Results.png">
 
