@@ -1,1 +1,1 @@
-Please refer [here](https://drive.google.com/file/d/1S0_p_HTCEU15BnrJaT3gCGsCdkZRK8dp/view?usp=drive_link) to access the LF-WikiHierarchy dataset
+Please refer [here](https://drive.google.com/file/d/1S0_p_HTCEU15BnrJaT3gCGsCdkZRK8dp/view?usp=drive_link) to access the LF-WikiHierarchy dataset.
